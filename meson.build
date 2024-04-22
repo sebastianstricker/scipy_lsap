@@ -1,4 +1,4 @@
-project('scipy_lsap_c', 'cpp', version: '1.4.0')
+project('scipy_lsap', 'cpp', version: '1.4.0')
 
 sources = ['rectangular_lsap.cpp']
 
