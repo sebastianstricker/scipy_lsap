@@ -3,7 +3,7 @@ project('scipy_lsap', 'cpp', version: '1.4.0')
 sources = ['rectangular_lsap.cpp']
 
 inc = include_directories('.')
-liblsap = static_library('scipy_lsap_c', 
+liblsap = static_library('scipy_lsap', 
                     sources,
                     install: false)
 
