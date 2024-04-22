@@ -9,6 +9,6 @@ liblsap = static_library('scipy_lsap_c',
 
 liblsap_dep = declare_dependency(include_directories: inc, link_with : liblsap)
 
-executable('scipy_lsap_c',
-   ['main_test.cpp'],
-   dependencies : [liblsap_dep])
+# executable('scipy_lsap_c',
+#    ['main_test.cpp'],
+#    dependencies : [liblsap_dep])
